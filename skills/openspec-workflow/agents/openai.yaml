@@ -1,4 +1,4 @@
 interface:
-  display_name: "OpenSpec Workflow"
-  short_description: "OpenSpec proposal/apply/archive flow"
-  default_prompt: "Use $openspec-workflow to handle an OpenSpec proposal, implementation, or archive task in this repository."
+  display_name: "OpenSpec Workflow (Legacy)"
+  short_description: "Compatibility shim for the old OpenSpec skill"
+  default_prompt: "Use $openspec-workflow only for legacy prompts, then route to openspec-proposal, openspec-apply, or openspec-archive."

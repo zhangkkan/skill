@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenSpec Proposal"
+  short_description: "Draft OpenSpec proposals and spec deltas"
+  default_prompt: "Use $openspec-proposal to create or revise an OpenSpec proposal, plan, or spec delta in this repository."

@@ -9,7 +9,10 @@
 
 ## 当前 skills
 
-- `openspec-workflow`
+- `openspec-proposal`
+- `openspec-apply`
+- `openspec-archive`
+- `openspec-workflow`（兼容层）
 
 ## 使用方式
 
@@ -22,6 +25,9 @@
 只同步单个 skill：
 
 ```bash
+./scripts/sync-skill.sh openspec-proposal
+./scripts/sync-skill.sh openspec-apply
+./scripts/sync-skill.sh openspec-archive
 ./scripts/sync-skill.sh openspec-workflow
 ```
 
@@ -33,6 +39,7 @@ ${CODEX_HOME:-$HOME/.codex}/skills
 
 ## 维护建议
 
-- 通用流程放在这里维护
+- OpenSpec 的 proposal / apply / archive 分别维护，避免一个 skill 覆盖全流程触发
+- `openspec-workflow` 仅保留兼容用途，不再承担通用触发
 - 项目差异继续保留在各自仓库内，例如 `openspec/AGENTS.md`
 - 修改 skill 后，执行同步脚本，再开一个新的 Codex 会话验证是否生效

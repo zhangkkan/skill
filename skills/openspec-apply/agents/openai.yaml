@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenSpec Apply"
+  short_description: "Implement approved OpenSpec changes"
+  default_prompt: "Use $openspec-apply to implement an approved OpenSpec change in this repository."
