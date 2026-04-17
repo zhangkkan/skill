@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenSpec Workflow"
+  short_description: "OpenSpec proposal/apply/archive flow"
+  default_prompt: "Use $openspec-workflow to handle an OpenSpec proposal, implementation, or archive task in this repository."
