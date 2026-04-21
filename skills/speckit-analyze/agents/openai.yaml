@@ -1,0 +1,4 @@
+interface:
+  display_name: "speckit-analyze"
+  short_description: "Check SpecKit artifacts for gaps and drift"
+  default_prompt: "Use $speckit-analyze to review the active SpecKit feature for inconsistencies across spec, plan, tasks, code, and constitution rules."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "speckit-checklist"
+  short_description: "Create a SpecKit verification checklist"
+  default_prompt: "Use $speckit-checklist to generate a focused verification checklist for the active SpecKit feature."

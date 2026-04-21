@@ -1,0 +1,4 @@
+interface:
+  display_name: "speckit-implement"
+  short_description: "Execute a SpecKit feature task list"
+  default_prompt: "Use $speckit-implement to carry out the active SpecKit feature from its tasks, code, tests, and docs."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "speckit-specify"
+  short_description: "Draft or revise a SpecKit feature spec"
+  default_prompt: "Use $speckit-specify to create or update a SpecKit feature spec in this repository."

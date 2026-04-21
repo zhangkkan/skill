@@ -1,0 +1,4 @@
+interface:
+  display_name: "speckit-plan"
+  short_description: "Generate a SpecKit technical plan"
+  default_prompt: "Use $speckit-plan to create or revise the technical plan for the active SpecKit feature."

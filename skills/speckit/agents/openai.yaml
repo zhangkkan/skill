@@ -1,0 +1,4 @@
+interface:
+  display_name: "SpecKit Workflow (Legacy)"
+  short_description: "Compatibility shim for the old umbrella SpecKit skill"
+  default_prompt: "Use $speckit only for legacy prompts, then route to speckit-specify, speckit-clarify, speckit-plan, speckit-tasks, speckit-implement, speckit-analyze, speckit-checklist, or speckit-constitution."

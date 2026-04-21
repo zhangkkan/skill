@@ -1,0 +1,4 @@
+interface:
+  display_name: "speckit-constitution"
+  short_description: "Update SpecKit constitution and templates"
+  default_prompt: "Use $speckit-constitution to revise the SpecKit constitution and keep templates or workflow files in sync."

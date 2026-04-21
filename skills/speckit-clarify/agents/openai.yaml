@@ -1,0 +1,4 @@
+interface:
+  display_name: "speckit-clarify"
+  short_description: "Resolve open questions in a SpecKit spec"
+  default_prompt: "Use $speckit-clarify to inspect a SpecKit feature spec, surface the key ambiguities, and fold the resolved answers back into the feature docs."

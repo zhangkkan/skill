@@ -1,0 +1,4 @@
+interface:
+  display_name: "speckit-tasks"
+  short_description: "Create dependency-ordered SpecKit tasks"
+  default_prompt: "Use $speckit-tasks to turn the active SpecKit plan into concrete, ordered implementation tasks."
